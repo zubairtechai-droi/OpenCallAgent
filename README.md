@@ -43,8 +43,13 @@ Multilanguage support
 | Text-to-speech | Piper or Kokoro | Agent voice output |
 | Agent logic and memory | LangChain, LangGraph | Tools, state and short-term memory |
 | RAG | LlamaIndex, BGE embeddings | Answers from business documents |
-| Machine learning | scikit-learn, XGBoost, Hugging Face Transformers, sentence-transformers | Lead scoring, intent, sentiment, injection detection, clustering |
-| ML training | Google Colab, Kaggle | Free GPU notebooks |
+| **ML: classical models** | scikit-learn, XGBoost | Lead scoring, no-show prediction |
+| **ML: NLP models** | Hugging Face Transformers (DistilBERT) | Intent classification, sentiment and anger detection, prompt injection detection |
+| **ML: embeddings and clustering** | sentence-transformers, KMeans, BERTopic | Topic clustering of calls |
+| **ML: speech (stretch goal)** | Whisper fine-tuning | Better Urdu transcription |
+| **ML: training environment** | Google Colab, Kaggle notebooks | Free GPU for training |
+| **ML: datasets** | UCI, Kaggle, Hugging Face | Bank Marketing, Banking77, CLINC150, tweet_eval, deepset/prompt-injections |
+| **ML: evaluation** | scikit-learn metrics | ROC-AUC, precision, recall, F1, word error rate |
 | Automation | n8n (Docker) | Webhooks, CRM sync, reminders |
 | CRM | HubSpot Free (or Twenty / EspoCRM) | Leads and call outcomes |
 | Observability | LangSmith or Langfuse | Traces and latency monitoring |
